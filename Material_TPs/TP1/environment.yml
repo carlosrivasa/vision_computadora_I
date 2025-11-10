@@ -1,0 +1,10 @@
+name: vc1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy>=1.21,<1.25
+  - matplotlib>=3.8  # conda-forge aún ofrece 3.8 para py38; si falla, bajar a <3.8
+  - opencv>=4.5,<5
+  - tabulate
+  - jupyter
