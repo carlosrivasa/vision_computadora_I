@@ -1,0 +1,6 @@
+# Compatibles con Python 3.8
+numpy>=1.21,<1.25
+opencv-python>=4.5,<4.10
+matplotlib>=3.4,<3.8
+tabulate>=0.8.9
+jupyter>=1.0
